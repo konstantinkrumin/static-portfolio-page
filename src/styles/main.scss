@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import 'variables';
+@import 'navbar';
+@import 'body-section';
+@import 'projects-section';
+@import 'contact-section';
+@import 'footer';
+@import 'media-queries';
+
+/* MAIN */
+body {
+  font-family: $font-family;
+  text-align: center;
+  background-color: $light-gray;
+}
+
+h1 { font-size: 3em; }
+
+h2 { font-size: 2em; }

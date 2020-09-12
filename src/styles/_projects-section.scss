@@ -1,0 +1,51 @@
+@import 'variables';
+
+/* PROJECTS SECTION */
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects_title {
+  padding-top: 10vh;
+  color: $accent-color;
+}
+
+#projects_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
+  width: 80%;
+  padding-bottom: 30px;
+}
+
+a { text-decoration: none; }
+
+.project-tile {
+  text-decoration: none;
+  margin-bottom: auto;
+}
+
+.project-tile:hover .project_name {
+  color: $dark-gray;
+  background-color: $accent-color;
+}
+
+.project_screenshot {
+  width: 100%;
+  vertical-align: top;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.project_name {
+  font-size: 1.5em;
+  padding: 20px;
+  margin-top: 0px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: $dark-gray;
+  color: $accent-color;
+}

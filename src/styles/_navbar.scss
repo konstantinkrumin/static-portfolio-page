@@ -1,0 +1,30 @@
+@import 'variables';
+
+/* NAVBAR */
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#navbar {
+  font-size: 1.4em;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  background-color: $accent-color;
+}
+
+.nav-link {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+
+  &:hover, &:focus {
+    color: $accent-color;
+    background-color: $dark-gray;
+  }
+}
