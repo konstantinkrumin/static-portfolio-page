@@ -1,16 +1,16 @@
-import React from "react";
+import React from 'react';
 
 export default function ProjectTile(props) {
   return (
     <div className="project-tile" id={props.id}>
-      <a href={`${props.link_id}`} target="_blank">
+      <a href={`${props.link_id}`} target="_blank" rel="noopener noreferrer">
         <img
           className="project_screenshot"
           src={props.img_src}
           alt={props.img_alt}
         />
         <p className="project_name">
-          <span className="brackets">&lt;</span> {props.title}{" "}
+          <span className="brackets">&lt;</span> {props.title}{' '}
           <span className="brackets">/&gt;</span>
         </p>
       </a>
